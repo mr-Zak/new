@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-300.eot");
+  src: url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-300.woff") format("woff"), url("../../fonts/MuseoSansCirilicc/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-700.eot");
+  src: url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-700.woff") format("woff"), url("../../fonts/MuseoSansCirilic/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Museo Sans Light';
+}
+
 .container {
   width: 1170px;
   margin: auto;
@@ -26,7 +46,6 @@
   background-color: #ffd200;
   border: none;
   padding: 18px 30px;
-  font-family: sans-serif;
 }
 
 .bloks {
@@ -64,7 +83,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: right;
-  font-family: sans-serif;
 }
 
 .button_block-logo {
@@ -74,16 +92,14 @@
 .phone {
   color: #333333;
   font-size: 20px;
-  font-weight: 600;
   text-decoration: none;
   margin-top: 10px;
-  font-family: sans-serif;
+  font-family: 'Museo Sans Bold';
 }
 
 .hero {
   padding: 50px 0;
   background-color: #f5f5f5;
-  font-family: sans-serif;
 }
 
 .hero-block {
@@ -103,7 +119,6 @@
   ont-weight: 800;
   line-height: 55px;
   margin-bottom: 40px;
-  font-family: sans-serif;
 }
 
 .hero-text__subtitle {
@@ -111,7 +126,6 @@
   font-weight: 500;
   margin-bottom: 70px;
   display: inline-block;
-  font-family: sans-serif;
 }
 
 .hero-list {
@@ -176,19 +190,18 @@
     font-size: 24px;
     line-height: 1.4;
     margin-bottom: 15px;
-    font-family: sans-serif;
+    font-family: 'Museo Sans Bold';
   }
   .hero-text__subtitle {
     font-size: 16px;
     margin-bottom: 28px;
-    font-family: sans-serif;
+    font-family: 'Museo Sans Light';
   }
   .hero-list__items {
     margin-bottom: 20px;
   }
   .hero-list__text {
     font-size: 12px;
-    font-family: sans-serif;
   }
   .hero-list__image {
     margin-right: 15px;
