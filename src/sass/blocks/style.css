@@ -96,6 +96,7 @@
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-right: 140px;
+  font-family: sans-serif;
 }
 
 .hero-text__title {
