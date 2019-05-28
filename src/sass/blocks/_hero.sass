@@ -1,5 +1,7 @@
 .hero
+
     padding: 50px 0
+    background-color: $background-one
     &-block
         display: flex
     &-text
@@ -35,8 +37,10 @@
             max-width: 300px
 @media (max-width: 1200px)
     .hero
+        max-width: 100%
         &-block
             flex-direction: column
+            justify-content: center
         &-list
             margin-bottom: 44px
         &-text
@@ -58,5 +62,5 @@
                 font-size: 12px
             &__image
                 margin-right: 15px
-        
 
+   
